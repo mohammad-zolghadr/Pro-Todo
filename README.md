@@ -1,6 +1,6 @@
-# You can Only See Demo of -> Professional Todo
+# You can only see demo of : Professional Todo
 
-Todo App Add, Remove , Auto Analyze(Soon) Using :
+Todo App : Add, Remove , Auto Analyze(Soon) Using :
 
 🔴 Html Css Javascript React.Js <br/>
 🔴 Redux <br/>
@@ -11,7 +11,7 @@ Todo App Add, Remove , Auto Analyze(Soon) Using :
 
 ---
 
-# <a href="https://mohammad-pro-todo.netlify.app/dashboard" target="_blank"> Click To Show Demo</a>
+# <a href="https://mohammad-pro-todo.netlify.app" target="_blank"> Click To Show Demo</a>
 
 
 <div style="display:flex" align="center">
