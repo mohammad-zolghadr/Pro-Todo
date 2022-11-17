@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: nf;
+    src: url('./assets/fonts/Kalameh\(FaNum\)-Regular.ttf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: bf;
+    src: url('./assets/fonts/Kalameh\(FaNum\)-Bold.ttf');
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    direction: rtl;
+
+    /*          Variables        */
+    --primary-color : #692ED6;
+    --pale-color : #777777;
+    --error-color : #cc4444;
+    --bg-color : #f8f8f8;
+    --title-color : #444444;
+    --bottom-margin : 70px;
+}
+
+html{
+    font-family: nf;
+    background-color: var(--bg-color);
+}
+
+button{
+    font-family: bf;
+    cursor: pointer;
+}
+
+
+
+@media (min-width:600px){
+    #root{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media (min-width:768px){
+    #root{
+        max-width: 70%;
+    }
+}
+
+@media (min-width:992px){
+    #root{
+        max-width: 60%;
+    }
+}
+
+@media (min-width:1200px){
+    #root{
+        max-width: 60%;
+    }
+}
+

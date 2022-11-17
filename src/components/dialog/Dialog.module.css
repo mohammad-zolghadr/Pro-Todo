@@ -1,0 +1,23 @@
+.dialogWrapper{
+    width: 100%;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: -250%;
+    left: 0;
+    z-index: 100;
+    transition: all 1s ease;
+}
+
+.dbgSuccess{
+    background-color: var(--primary-color);
+}
+
+.dbgError{
+    background-color: var(--error-color);
+}
+
+.dialogWrapper p{
+    color: #fff;
+    text-align: center;
+}

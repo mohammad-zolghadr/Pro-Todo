@@ -1,0 +1,20 @@
+.dashWrapper{
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+    padding: var(--bottom-margin) 0;
+    margin-bottom: var(--bottom-margin);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dashWrapper img{
+    width: 300px;
+}
+
+.dashWrapper p{
+    color: var(--pale-color);
+    text-align: center;
+}

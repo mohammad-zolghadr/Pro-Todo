@@ -1,0 +1,97 @@
+.wlWrapper{
+    background-color: var(--bg-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    flex: 1 1 230px;
+}
+
+.wlDone{
+    opacity: 0.5;
+    text-decoration: line-through;
+    text-decoration-color: var(--primary-color);
+}
+
+.priorityLabel{
+    background-color: var(--primary-color);
+    padding: 5px 70px;
+    color: #fff;
+    position: absolute;
+    left: -65px;
+    top: 15px;
+    transform: rotate(-45deg);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+
+.wlWrapper h2{
+    font-size: 1.3rem;
+}
+
+.wlDoOrRemove{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.wlCheck , .wlTrash{
+    width: 22px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wlTrash{
+    width: 15px;
+}
+
+.wlCheck:hover , .wlTrash:hover{
+    opacity: 0.7;
+}
+
+.wlClock{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5px;
+}
+.wlClock img{
+    width: 20px;
+}
+
+.wlClock span{
+    margin: 0 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.wlWrapper p{
+    font-size: 0.8rem;
+    text-align: justify;
+    color: var(--pale-color);
+}
+
+.wlShowMore{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.wlShowMore:hover{
+    opacity: 0.5;
+}
+
+@media (min-width:992px){
+    .wlWrapper{
+        align-self: stretch;
+    }
+}

@@ -1,0 +1,46 @@
+.wlContainer{
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+    padding: var(--bottom-margin) 0;
+    margin-bottom: var(--bottom-margin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.wlContainer::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .wlContainer {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+}
+
+
+.wlEmptyList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wlEmptyList img {
+    width: 300px;
+}
+.wlEmptyList p{
+    font-family: bf;
+    color: var(--pale-color);
+    font-family: nf;
+}
+.wlEmptyList button{
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+    padding: 5px 20px;
+    font-size: 0.8rem;
+}
+
+
+
