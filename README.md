@@ -20,3 +20,6 @@ Todo App : Add, Remove , Auto Analyze(Soon) Using :
 <img src="https://user-images.githubusercontent.com/48680310/191360291-745856d8-ee88-4f80-a4a1-11de5ec8a28b.png" style="width:24%"/>
 <img src="https://user-images.githubusercontent.com/48680310/191360295-ace33d4d-ff34-4239-abd3-4b0ab6e1037e.png" style="width:24%"/>
 </div>
+
+<br/>
+Tutorial of this project is recording for <a href="Faradars.org">Faradars.org</a>
