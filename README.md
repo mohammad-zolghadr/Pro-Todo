@@ -1,6 +1,8 @@
 # Professional Todo is Ready!
 
-Todo App : Add, Remove , Auto Analyze(Soon) Using :
+Professional Todo App : Add a todo , Remove todo , Auto Analyze(Soon) 
+</br></br>
+I made this project using :
 
 🔴 Html Css Javascript React.Js <br/>
 🔴 Redux <br/>
